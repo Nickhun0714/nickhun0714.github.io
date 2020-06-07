@@ -17,6 +17,8 @@ h3{
     margin:10px 20px 0;
     padding: 10px 0 0 0;
     border-top: solid 1px blue;
+    background-color: lightblue;
+
 }
 .bold{
     font-weight: bold;
@@ -37,4 +39,7 @@ background-color: blueviolet;
 }
 img{
     width: 200px;
+    height:200px;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
 }
