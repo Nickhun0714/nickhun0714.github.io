@@ -43,3 +43,12 @@ img{
     box-shadow: 3px 3px 7px black;
     margin: 1%;
 }
+#img-1{
+    /* visibility: hidden; */
+    /* display:none; */
+    position:fixed;
+    top:10px;
+    right:10px;
+    /* position: relative;
+    top: 14px; */
+}
