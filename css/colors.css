@@ -2,5 +2,6 @@
     display:inline-block;
     width:100px;
     height: 100px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-color: rgb(100,20,200,0.5);
 }

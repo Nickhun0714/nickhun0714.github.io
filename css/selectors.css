@@ -1,0 +1,41 @@
+body{
+    background-color: darkcyan;
+}
+body div.login-div{ /* selector, bodyn belül diven belül a login div. HA SZÓKÖZ: VALAMIN BELÜL KERESEK
+                            HA NEM ÍROK SZÓKÖZT, AKKOR MIND A KETTŐ UGYANARRA AZ ELEMRE VONATKOZIK */
+    padding:15px;
+    border:solid 1px grey;
+    box-shadow: 0 0 2px darkgrey;
+    display:inline-block;
+}
+.login-div input{ /*login diven belül az inputokra lesz érvényes, a display 
+                            block hogy az input új sorba kezd*/
+    display: block;
+    margin-bottom: 7px;
+}
+
+/*Attribútom selector*/
+.login-div input[type="email"]{
+    border: solid 1px blue;
+}
+.login div input[name="password"]{
+    border:solid 1px red;
+}
+
+.login-div button:hover{
+    box-shadow: 0 0 3px;
+}
+.login-div button:focus{
+    box-shadow: 0 0 3px;
+    border:none;
+}
+
+ul li:last-child{
+    text-decoration: underline;
+}
+ul li:first-child{
+    color: red;
+}
+ul li:nth-child(2){
+    color: blue;
+}
